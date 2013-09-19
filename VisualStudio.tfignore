@@ -7,11 +7,14 @@
 bin
 obj
 
+#include nuget executable
+!NuGet.exe
+
 #nuget packages directory
 packages
 
 #include package target files which may be required for msbuild
-!packages/**/*.targets
+!packages/*.targets
 
 # ReSharper
 _ReSharper*/
