@@ -45,3 +45,6 @@ ehthumbs.db
 
 # Folder config file
 Desktop.ini
+
+# VS 2015 folder
+.vs
